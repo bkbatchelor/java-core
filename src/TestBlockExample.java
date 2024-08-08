@@ -15,7 +15,7 @@ public class TestBlockExample {
 
     /**
      *  Text Blocks prints the equivalent  of:
-     *  String hello = "\"Hello to Text Blocks\"\n    Introduced in Java 15 as a standard feature"
+     *  String hello = "\Hello to Text Blocks\"\n    Introduced in Java 15 as a standard feature"
      */
     private static String textBlockOne(){
         return """
@@ -26,7 +26,7 @@ public class TestBlockExample {
     /**
      * Adds a newline at the end
      *  Text Blocks prints the equivalent  of:
-     *  String hello = "\"Hello to Text Blocks\"\n    Introduced in Java 15 as a standard feature\n"
+     *  String hello = "\Hello to Text Blocks\"\n    Introduced in Java 15 as a standard feature\n"
      */
     private static String textBlockTwo(){
         return """
@@ -38,7 +38,7 @@ public class TestBlockExample {
     /**
      *  Using backslash (\) to not add a newline
      *  Text Blocks prints the equivalent  of:
-     *  String hello = "\"Hello to Text Blocks\"     Introduced in Java 15 as a standard feature\n"
+     *  String hello = "\Hello to Text Blocks\"     Introduced in Java 15 as a standard feature\n"
      */
     private static String textBlockThree(){
         return """
@@ -50,7 +50,7 @@ public class TestBlockExample {
     /**
      *  Using \s to  add two spaces
      *  Text Blocks prints the equivalent  of:
-     *  String hello = "\"Hello to Text Blocks\"\n  Introduced in Java 15 as a standard feature\n"
+     *  String hello = "\Hello to Text Blocks\"\n  Introduced in Java 15 as a standard feature\n"
      */
     private static String textBlockFour(){
         return """
