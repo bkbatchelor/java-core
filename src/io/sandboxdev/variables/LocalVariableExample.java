@@ -1,3 +1,5 @@
+package io.sandboxdev.variables;
+
 public class LocalVariableExample {
 
     public static void main(String... args){
@@ -16,7 +18,7 @@ public class LocalVariableExample {
 
     }
 
-    private static void beginsWithCurrency() {
+    private static void beginWithCurrency() {
 
     }
 }

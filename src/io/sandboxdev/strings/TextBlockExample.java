@@ -1,4 +1,6 @@
-public class TestBlockExample {
+package io.sandboxdev.strings;
+
+public class TextBlockExample {
 
     public static void main(String... args) {
 
