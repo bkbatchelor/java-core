@@ -1,6 +1,6 @@
 public class TestBlockExample {
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
 
         System.out.println("\n ------------------------------------------------------");
         System.out.print(textBlockOne());
